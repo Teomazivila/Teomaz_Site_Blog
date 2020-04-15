@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb537f08-c5f1-4c8d-923e-24de5041d05c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/django_project1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/400dpiLogo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/400dpiLogo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/400dpiLogoCropped.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/400dpiLogoCropped.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/400dpiLogoCropped.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/400dpiLogoCropped.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/618986710.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/media/618986710.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/EPSLogo.eps" beforeDir="false" afterPath="$PROJECT_DIR$/media/EPSLogo.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FaviconLogo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/FaviconLogo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FaviconLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/FaviconLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/MediumSquareLogo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/MediumSquareLogo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/MediumSquareLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/MediumSquareLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/PSLogo.ps" beforeDir="false" afterPath="$PROJECT_DIR$/media/PSLogo.ps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/SVGLogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SVGLogo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/SmallLogo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SmallLogo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/SmallLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/SmallLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/SmallLogoBW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/SmallLogoBW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/SmallLogoBW.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/SmallLogoBW.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Teomaz.rgba" beforeDir="false" afterPath="$PROJECT_DIR$/media/Teomaz.rgba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/KspzISnnRRWSG20Jk6njA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/profile_pics/KspzISnnRRWSG20Jk6njA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/profile_pics/default.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aapj8bRpFOKwo8a0lWcfzDw8HS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb537f08-c5f1-4c8d-923e-24de5041d05c" name="Default Changelist" comment="" />
+      <created>1586983690491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586983690491</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="142" y="4" key="SettingsEditor" timestamp="1586984490433">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="4" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1586984490433" />
+  </component>
+</project>
