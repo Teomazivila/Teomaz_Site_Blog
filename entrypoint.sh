@@ -22,7 +22,7 @@ python /code/manage.py migrate --run-syncdb
 # from django.contrib.contenttypes.models import ContentType
 # ContentType.objects.all().delete()
 # quit()
-python manage.py loaddata datadump.json
+# python manage.py loaddata datadump.json
 
 # echo "Collect static files..."
 # python /code/manage.py collectstatic --noinput
