@@ -9,7 +9,7 @@ node("CentOS8"){
         }
         stage("Clone - Git"){
             sh 'cd /docker-compose && ls'
-            sh 'cd /docker-compose/ &&  git clone git@github.com:Teomazivila/Teomaz_Site_Blog.git'
+            sh 'cd /docker-compose/ &&  git clone https://github.com/Teomazivila/Teomaz_Site_Blog'
 //             git branch: 'Dorckerize', credentialsId: 'd24f2487-0e5d-4f24-8b03-407b62048095', url: 'https://github.com/Teomazivila/Teomaz_Site_Blog'
             sh 'sudo ls /docker-compose/'
         }
