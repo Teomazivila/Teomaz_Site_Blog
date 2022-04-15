@@ -2,7 +2,7 @@ node("CentOS8"){
     timeout(unit: 'SECONDS', time: 5){
         stage("Directory"){
             sh 'sudo rm -rf /docker-compose && sudo mkdir  /docker-compose'
-            sh 'docker rmi -f $(docker images -q) && docker volume rm $(docker volume ls -q)'
+//             sh 'docker rmi -f $(docker images -q) && docker volume rm $(docker volume ls -q)'
         }
         stage("Clone - Git"){
             sh 'cd /docker-compose && ls'
