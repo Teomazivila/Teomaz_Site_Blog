@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb537f08-c5f1-4c8d-923e-24de5041d05c" name="Default Changelist" comment="" />
+    <list default="true" id="bb537f08-c5f1-4c8d-923e-24de5041d05c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/django_project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_project1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envs/docker-env-default.env" beforeDir="false" afterPath="$PROJECT_DIR$/envs/docker-env-default.env" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,11 +57,5 @@
       <updated>1586983690491</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="142" y="4" key="SettingsEditor" timestamp="1586984490433">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="142" y="4" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1586984490433" />
   </component>
 </project>
