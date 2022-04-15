@@ -4,6 +4,9 @@ node("CentOS8"){
             sh 'sudo rm -rf /docker-compose && sudo mkdir  /docker-compose'
 //             sh 'docker rmi -f $(docker images -q) && docker volume rm $(docker volume ls -q)'
         }
+        stage("Set_Permissios"){
+            sh 'sudo chmod 0777 /docker-compose'
+        }
         stage("Clone - Git"){
             sh 'cd /docker-compose && ls'
             sh 'cd /docker-compose/ &&  git clone git@github.com:Teomazivila/Teomaz_Site_Blog.git'
