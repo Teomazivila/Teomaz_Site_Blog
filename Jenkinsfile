@@ -6,8 +6,9 @@ node("CentOS8"){
         }
         stage("Clone - Git"){
             sh 'cd /docker-compose && ls'
-            git branch: 'Dorckerize', credentialsId: 'd24f2487-0e5d-4f24-8b03-407b62048095', url: 'https://github.com/Teomazivila/Teomaz_Site_Blog'
-            sh 'ls'
+            sh 'cd /docker-compose/ &&  git clone git@github.com:Teomazivila/Teomaz_Site_Blog.git'
+//             git branch: 'Dorckerize', credentialsId: 'd24f2487-0e5d-4f24-8b03-407b62048095', url: 'https://github.com/Teomazivila/Teomaz_Site_Blog'
+            sh 'sudo ls /docker-compose/'
         }
         stage("Build"){
             echo "Starting  Build process to the target folder based on docker compose"
