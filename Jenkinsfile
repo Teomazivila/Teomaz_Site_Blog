@@ -10,6 +10,7 @@ node("CentOS8"){
             sh 'ls'
         }
         stage("Build"){
+            echo "Starting  Build process to the target folder based on docker compose"
             sh 'cd /docker-compose/Teomaz_Site_Blog/ && docker-compose build'
         }
         stage("Deploy"){
