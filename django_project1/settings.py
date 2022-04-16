@@ -25,7 +25,8 @@ SECRET_KEY = 'uwbm1RwiwsmjMTy574w.VTqR6p1Dwi3FIUVnWrLrK4lOA51cPANri2wzyXDdWQ'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
+CORS_ALLOWED_ORIGINS = "https://blog.teomazivil.com"
 
 
 # Application definition
