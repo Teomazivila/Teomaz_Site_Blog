@@ -11,12 +11,17 @@ services:
     ports:
       - 8000:8000
     environment:
-      DEBUG: 1
+      DEBUG: 0
       DJANGO_ENV: production
       SECRET_KEY: 'uwbm1RwiwsmjMTy574w.VTqR6p1Dwi3FIUVnWrLrK4lOA51cPANri2wzyXDdWQ'
       ALLOWED_HOSTS: localhost 127.0.0.1 [::1] *
       ADMIN_ENABLED: 1
-      CORS_ALLOWED_ORIGINS: https://blog.teomazivil.com
+      CORS_ALLOWED_ORIGINS: blog.teomazivil.com
+      CORS_ORIGIN_ALLOW_ALL: "True"
+      CORS_ALLOW_CREDENTIALS: "True"
+      CSRF_TRUSTED_ORIGINS: blog.teomazivil.com
+      CORS_REPLACE_HTTPS_REFERER: "True"
+      CSRF_COOKIE_DOMAIN: teomazivil.com
       DATABASE: postgres
       POSTGRES_HOST: teomaz-blog-database
       POSTGRES_PORT: 5432
