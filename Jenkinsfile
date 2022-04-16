@@ -4,7 +4,7 @@ node("CentOS8"){
             echo "going to remove old containers and volumes"
 //             sh 'cd /docker-compose/Teomaz_Site_Blog/ && docker-compose down --remove-orphans'
             sh 'sudo rm -rf /docker-compose && sudo mkdir  /docker-compose'
-            sh 'docker rmi -f $(docker images -q) && docker volume rm $(docker volume ls -q)'
+//             sh 'docker rmi -f $(docker images -q) && docker volume rm $(docker volume ls -q)'
         }
         stage("Set_Permissios"){
             sh 'sudo chmod 0777 /docker-compose'
