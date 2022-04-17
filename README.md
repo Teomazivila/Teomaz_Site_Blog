@@ -1,3 +1,3 @@
 "# Teomaz_Site_Blog" 
 
-Adding information 
+Adding information for future use
