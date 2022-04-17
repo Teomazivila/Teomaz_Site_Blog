@@ -37,6 +37,8 @@ services:
       EMAIL_HOST_USER: teosweb77@gmail.com
       EMAIL_HOST_PASSWORD: iuqzyerijizggrwg
       ACCOUNT_EMAIL_VERIFICATION: none
+      EMAIL_USER2: teosweb77@gmail.com
+      EMAIL_PASS2: iuqzyerijizggrwg
 #    env_file:
 #      - envs/docker-env-default.env
     depends_on:
