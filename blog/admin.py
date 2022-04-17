@@ -11,6 +11,9 @@ class CommentAdmin(admin.ModelAdmin):
     def approve_comments(self, request, queryset):
         queryset.update(active=True)
 
+admin.site.site_header = 'Teomaz Blog'
+admin.site.index_title = 'Teodorico Mazivilas Admin Panel'
+admin.site.site_title = 'Blog Website Teomaz_Blog'
 
 admin.site.register(Post)
 admin.site.register(Comment)
