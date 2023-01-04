@@ -18,6 +18,7 @@ node("CentOS8"){
         stage("Build"){
             echo "Starting  Build process to the target folder based on docker compose"
             sh 'cd /docker-compose/Teomaz_Site_Blog/ && git checkout Dorckerize'
+            sh 'sudo mkdir /docker-compose/Teomaz_Site_Blog/envs'
             sh 'sudo cp /home/teomaz/jenkins/docker-env-default.env /docker-compose/Teomaz_Site_Blog/envs/'
             sh 'sudo cp /home/teomaz/jenkins/docker-compose.yml /docker-compose/Teomaz_Site_Blog/ && sudo cp /home/teomaz/jenkins/sendgrid.env /docker-compose/Teomaz_Site_Blog/'
             sh 'cd /docker-compose/Teomaz_Site_Blog/ && docker-compose build'
